@@ -11,7 +11,7 @@ class MainMenuScreen(Screen):
     """Main menu screen."""
     
     def compose(self) -> ComposeResult:
-        yield Header()
+        # yield Header()
         yield Container(
             Vertical(
                 Label("Taktix", id="title"),
@@ -22,7 +22,7 @@ class MainMenuScreen(Screen):
             ),
             id="main-container"
         )
-        yield Footer()
+        # yield Footer()
     
     def on_button_pressed(self, event: Button.Pressed) -> None:
         """Handle button presses."""

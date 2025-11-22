@@ -1,13 +1,9 @@
 #
 # Taktix Game Module
 #
-import os
 
 # Textual imports
-from textual.app import App, ComposeResult
-from textual.screen import Screen
-from textual.widgets import Header, Footer, Label, Button
-from textual.containers import Container, Vertical, Horizontal
+from textual.app import App
 
 # Local imports
 from taktix.screens.main_screen import MainMenuScreen
