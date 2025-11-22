@@ -2,15 +2,18 @@
 # Taktix Game Screen
 #
 
+# Textual imports
 from textual.screen import Screen
-from textual.widgets import Header, Footer, Label, Button
-from textual.containers import Container, Vertical
+from textual.widgets import Label, Button
+from textual.containers import Container
 from textual.app import ComposeResult
 
+# Local imports
+from taktix.game.game_manager import GameManager
 
 class GameScreen(Screen):
     """Game screen."""
-    
+    game_manager = GameManager()
     BINDINGS = [ ("escape", "menu", "Leave Game"), ("q", "quit", "Quit Game") ]
     
     def compose(self) -> ComposeResult:
