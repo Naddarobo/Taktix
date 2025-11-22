@@ -1,0 +1,43 @@
+#main-container {
+    align: center middle;
+    width: 50%;
+    height: 50%;
+}
+
+#menu-container {
+    align: center middle;
+    width: auto;
+    height: auto;
+}
+
+#title {
+    text-align: center;
+    width: 100%;
+    margin: 1;
+    text-style: bold;
+}
+
+#play-btn, #tutorial-btn, #quit-btn {
+    width: 20;
+    margin: 1;
+}
+
+#tutorial-container, #game-container {
+    align: center middle;
+    width: 80%;
+    height: 80%;
+}
+
+#tutorial-title, #game-title {
+    text-align: center;
+    width: 100%;
+    margin: 1;
+    text-style: bold;
+}
+
+#tutorial-content, #game-content {
+    width: 100%;
+    margin: 2;
+}
+
+

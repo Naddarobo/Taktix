@@ -1,0 +1,5 @@
+{
+    "python.defaultInterpreterPath": "${env:HOME}/Library/Caches/pypoetry/virtualenvs/taktix-jT_0BNqu-py3.13/bin/python",
+    "python.analysis.extraPaths": []
+}
+

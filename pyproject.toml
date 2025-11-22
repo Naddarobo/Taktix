@@ -8,14 +8,15 @@ repository = "https://github.com/Naddarobo/Taktix"
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.14"
+python = "^3.13"
 python-dotenv = "<1.0.1"
+textual = "^6.6.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.0"
 
 [tool.poetry.scripts]
-game = "Taktix.game:main"
+game = "taktix.cli:main"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
